@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-container {
+  background: salmon;
+  padding: 16px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project-list a {
+  text-decoration: none;
+}
+
+.dog-list {
+  border: 1px solid;
+  width: 225px;
+  padding: 10px;
+  margin: 10px;
+}
+.dog-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single-prod {
+  border: 2px solid red;
+  width: 350px;
+  padding: 13px;
+  margin: 10px auto;
+}
+
+.signin {
+  width: 400px;
+  padding: 20px;
+  margin: 20px auto;
+}
